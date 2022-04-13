@@ -1,10 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "QSWvwHI6a8utOcDSaWIpPpsdTlMKDAsDSvUfiL0fB9Ox6HiYZE4+8OxqA/fNxzRFSw8EXC6FQB5JkGBRiZx4aQ==",
+  "dgSpecHash": "lhhSMc9QmSYqjqXcRtYP+tAHGkgOC08R4k5vtbujFAybVvBLqSPbp1sgJnuj6Foc7S5QbnZvV6Z6O3o/sHRwWA==",
   "success": true,
   "projectFilePath": "/Users/jakecoffman/src/NugetDependantExample/NugetDependantExample.csproj",
   "expectedPackageFiles": [
+    "/Users/jakecoffman/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/jakecoffman/.nuget/packages/nugetpublishexample/1.0.0/nugetpublishexample.1.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "NugetDependantExample depends on Newtonsoft.Json (>= 13.0.0) but Newtonsoft.Json 13.0.0 was not found. An approximate best match of Newtonsoft.Json 13.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
