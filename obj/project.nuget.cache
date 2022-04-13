@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QSWvwHI6a8utOcDSaWIpPpsdTlMKDAsDSvUfiL0fB9Ox6HiYZE4+8OxqA/fNxzRFSw8EXC6FQB5JkGBRiZx4aQ==",
+  "success": true,
+  "projectFilePath": "/Users/jakecoffman/src/NugetDependantExample/NugetDependantExample.csproj",
+  "expectedPackageFiles": [
+    "/Users/jakecoffman/.nuget/packages/nugetpublishexample/1.0.0/nugetpublishexample.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

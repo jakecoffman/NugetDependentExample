@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "NugetPublishExample/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/NugetPublishExample.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/NugetPublishExample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NugetPublishExample/1.0.0": {
+      "sha512": "xPSboSteh5IaJ7ukO4N0i/Y4Hlf2NECk9ZUt1I13a9zJN2c/aX1OksgGqod7ja19+wQ65Y69XC6MPZmqGmCSRA==",
+      "type": "package",
+      "path": "nugetpublishexample/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/NugetPublishExample.dll",
+        "lib/net6.0/NugetPublishExample.runtimeconfig.json",
+        "nugetpublishexample.1.0.0.nupkg.sha512",
+        "nugetpublishexample.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "NugetPublishExample >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jakecoffman/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jakecoffman/src/NugetDependantExample/NugetDependantExample.csproj",
+      "projectName": "NugetDependantExample",
+      "projectPath": "/Users/jakecoffman/src/NugetDependantExample/NugetDependantExample.csproj",
+      "packagesPath": "/Users/jakecoffman/.nuget/packages/",
+      "outputPath": "/Users/jakecoffman/src/NugetDependantExample/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jakecoffman/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/jakecoffman/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "NugetPublishExample": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
